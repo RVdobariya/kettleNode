@@ -13,7 +13,7 @@ const {
 const jwt = require('jsonwebtoken');
 const common = require('../utils/common');
 const dayjs = require('dayjs');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const emailService = require('./email');
 const smsService = require('./sms');
 const ejs = require('ejs');

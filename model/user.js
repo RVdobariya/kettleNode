@@ -6,7 +6,7 @@
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
 let idValidator = require('mongoose-id-validator');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { USER_TYPES } = require('../constants/authConstant');
 const { convertObjectToEnum } = require('../utils/common');
 const authConstantEnum = require('../constants/authConstant');

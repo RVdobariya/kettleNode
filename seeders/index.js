@@ -3,7 +3,7 @@
  * @description :: functions that seeds mock data to run the application
  */
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const User = require('../model/user');
 const authConstant = require('../constants/authConstant');
 const Role = require('../model/role');
